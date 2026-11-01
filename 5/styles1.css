@@ -1,0 +1,59 @@
+div{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+body{
+    text-align: center;
+}
+.r{
+    border: 10px solid rgb(255,0,0);
+}
+.g{
+    border: 10px dashed rgb(0, 255, 0);
+}
+.b{
+    border: 10px dotted rgb(76, 0, 255);
+}
+.c{
+    border: 10px double rgb(0, 238, 255)
+}
+.m{
+    border: 10px ridge rgb(236, 8, 236)
+}
+.y{
+    border: 10px outset rgb(255, 238, 0)
+}
+.k{
+    border: 10px solid rgb(0, 0, 0);
+}
+span, em, strong{
+    display: inline-block;
+    padding: 5px;
+    border: 5px solid #FF4500;
+    background-color: #FFA500;
+}
+.p1{
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    text-align: center;
+    border: 5px solid #FF7F50;
+    padding: 15px;
+}
+.p2{
+    border: 5px solid red;
+    border-radius: 20px;
+    box-shadow: 2px 2px 8px 8px inset rgba(0,0,0,.5);
+    overflow: auto;
+    padding: 15px;
+}
+.p3{
+    border: solid #FF6347;
+    padding: 15px;
+}

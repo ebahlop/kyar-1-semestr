@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            div{
+                display: inline-block;
+                height: 200px;
+                width: 200px;
+                border: solid black 5px;
+                margin-left: 50px;
+                margin-right: 50px;
+            }
+            .div1 {
+            background: linear-gradient(to bottom, #0000ff, #ff0000);
+            }
+
+        .div2 {
+            background: repeating-linear-gradient(
+                45deg,
+                #0000ff,
+                #0000ff 8px,
+                #ff0000 8px,
+                #ff0000 16px
+            );
+        }
+
+        /* 3. Радиальный градиент (из центра к краям) */
+        .div3 {
+            background: radial-gradient(circle, #ccff00 0%, #008000 70%);
+        }
+
+        /* 4. Повторяющийся радиальный градиент (концентрические круги) */
+        .div4 {
+            background: repeating-radial-gradient(
+                circle,
+                #ccff00,
+                #ccff00 8px,
+                #008000 8px,
+                #008000 16px
+            );
+        }
+
+        /* 5. Радиальный градиент с несколькими цветами */
+        .div5 {
+            background: radial-gradient(circle, #ccff00 10%, #006400 60%, #ff00ff 100%);
+        }
+
+        /* 6. Сложный комбинированный градиент */
+        .div6 {
+            background: 
+                linear-gradient(to bottom, transparent 60%, #0000ff 90%, #ff00ff 100%),
+                linear-gradient(to right, #7fff00 0%, #006400 40%, #ffffff 70%, #000000 100%);
+        }
+        </style>
+    </head>
+    <body>
+        <div class="div1"></div>
+        <div class="div2"></div>
+        <div class="div3"></div>
+        <div class="div4"></div>
+        <div class="div5"></div>
+        <div class="div6"></div>
+    </body>
+</html>

@@ -1,0 +1,62 @@
+p{
+    text-indent: 15px;
+}
+body{
+    position: relative; 
+}
+.p1{
+    text-align: center;
+    font-family: 'Courier New', monospace; 
+    color: #FF5500; 
+    font-style: italic;
+}
+.p2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4;
+    color: #FF5500;
+}
+.p3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3;
+    color: #333333;
+}
+.p4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 4;
+    color: #111111;
+}
+th, td{
+    border: 1px solid black;
+    padding: 10px;
+}
+ol ul li{
+    list-style-type: none;
+}
+ul li{
+    background-image: url(sc.png);
+    background-repeat: no-repeat;
+    background-position: 0 center;
+    background-size: 50px 50px;
+    padding-left: 50px;
+}
+.logo{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 100px;
+    height: auto;
+}
+.img-left {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 5px;
+    width: 200px;
+    height: auto;
+}
+.img-right {
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    width: 200px;
+    height: auto;
+}
